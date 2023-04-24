@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABZMLZnbKaEGKXttN4Q2HYwAAAAACAAAAAAADZgAAwAAAABAAAAAxSu1hmmZLEHa3wjn6hRqAAAAAAASAAACgAAAAEAAAAHPWlYnYTiqr0yV3JIcmrDOAAAAA3gaD0GqdO5NvD+QaGno+CGgbKwjxVgblZBNUYOAJLpb3mCNI11i05m+IqqNeglF2+HBuvM7zeRnq8qF+1ezuQ811J6lYurclAApZyZr5E1NQUJRqcSCY3n6+j/0u8+ZcuqNfGFUgzhriBS95QjTgC8jRLS+wgidjR0XTSlkgc3YUAAAA7AK3G14Fk678pJfsjwfS2jpmYXs=</EncryptedPassword>
+    <History>False|2022-09-21T15:02:57.5654616Z;True|2022-09-21T17:00:39.1605085+02:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DevConnection">
+      <Value>Data Source=tcp:backend-tareasdbserverjuanfrando.database.windows.net,1433%3bInitial Catalog=Backend-tareas_db%3bUser Id=juanfrando%40backend-tareasdbserverjuanfrando%3bPassword=Angel21%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Backend_tareas.Context.AplicationDbContext">
+      <Value>Data Source=tcp:backend-tareasdbserverjuanfrando.database.windows.net,1433%3bInitial Catalog=Backend-tareas_db%3bUser Id=juanfrando%40backend-tareasdbserverjuanfrando%3bPassword=Angel21%2a</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
